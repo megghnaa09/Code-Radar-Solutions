@@ -6,7 +6,7 @@ int main() {
     if (a < b) {
         printf("True\n"); // a is less than b
     } else if (a == b) {
-        printf("True\n"); // a is equal to b
+        printf("False\n"); // a is equal to b
     } else {
         printf("False\n"); // a is greater than b
     }
