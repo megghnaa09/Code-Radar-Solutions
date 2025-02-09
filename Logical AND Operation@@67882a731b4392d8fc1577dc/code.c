@@ -7,7 +7,8 @@ int main(){
     }else if (a==0){
         if (a&&b<=0){
         printf("False\n");
-        }}
+        }
+        else{printf("False\n")}}
     else{
         printf("True\n");
     }
