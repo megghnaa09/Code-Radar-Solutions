@@ -1,11 +1,14 @@
 #include <stdio.h>
-int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if (a>0 && b<0)||(a==0 && b==0){
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    // Corrected logical condition
+    if ((a > 0 && b < 0) || (a == 0 && b == 0)) {
         printf("True\n");
-    }else{
-        printf("False");
+    } else {
+        printf("False\n");
     }
+
     return 0;
 }
