@@ -9,6 +9,6 @@ int main(){
     }else if (a>12){
         printf("Inavlid month");
     }else{
-        printf("28");
+        printf("30");
     }
 }
