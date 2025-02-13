@@ -8,7 +8,7 @@ int main(){
         printf("Go");
     }else if (grade=='Y'){
         printf("Slow Down");
-    else{
+    }else{
         printf("Invalid input");
     }
-}}
+}
