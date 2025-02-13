@@ -14,7 +14,7 @@ int main() {
         printf("%d\n", a * b);
     else if (op == '/') {
         if (b == 0)
-            printf("Error\n");
+            printf("error\n");
         else
             printf("%d\n", a / b);
     } else
