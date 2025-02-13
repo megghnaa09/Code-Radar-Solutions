@@ -7,7 +7,7 @@ int main(){
     }else if (a==2){
         printf("28");
     }else if (a>12){
-        printf("Inavlid month");
+        printf("Inavalid month");
     }else{
         printf("30");
     }
