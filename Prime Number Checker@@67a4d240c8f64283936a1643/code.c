@@ -1,14 +1,17 @@
-#include<stdio.h>
-#include<stdbool.h>
+#include <stdio.h>
+#include <stdbool.h>
+bool isPrime(int a);
+
 int main() {
     int t;
     scanf("%d", &t);
-    while (t--){
+    
+    while (t--) {
         int num;
-        scanf("%d",&num);
-        printf("%d\n", isPrime(num));
-
+        scanf("%d", &num);
+        printf("%s\n", isPrime(num) ? "Prime" : "Not Prime"); 
     }
+    
     return 0;
 }
 bool isPrime(int a) {
@@ -19,4 +22,3 @@ bool isPrime(int a) {
     }
     return true;
 }
-
